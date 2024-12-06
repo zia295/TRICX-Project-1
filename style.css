@@ -14,7 +14,7 @@
 
 .text-center{
     text-align: center;
-    background-image: url(images/background.avif);
+    background-image: url(images/title.avif);
 }
 
 .text-left{
@@ -102,6 +102,10 @@ h3{
     padding: 10px;
     text-decoration: none;
 }
+.icons a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .icons :hover{
     color: #ff4757;
@@ -153,6 +157,7 @@ h3{
     border: none;
     cursor: pointer;
 }
+
 .menu2{
     margin-top: -50px;
     margin-right: 90px;

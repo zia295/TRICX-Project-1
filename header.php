@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])){
         </div>
         
         </form>
-        <a class="title" href="index.php"><h1>FULL CIRCLE EVENTS</h1></a>
+        <a class="title" href="index.php" alt="logo"><h1>FULL CIRCLE EVENTS</h1></a>
        
 
 </div>
@@ -69,33 +69,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])){
                 <li><a href="about.php" <?php if($current_page == 'about.php') echo 'class="active"'; ?>>About</a></li>
                 <li><a href="events.php" <?php if($current_page == 'events.php') echo 'class="active"'; ?>>Events</a></li>
                 <li><a href="contact.php" <?php if($current_page == 'contact.php') echo 'class="active"'; ?>>Contact</a></li>
-            </ul>
-            </div>
-            </
-            
-            
-
-            <div class="menu2 text-right">
-            <?php if ($isLoggedIn) : ?>
-                <div class="dropdown">
-                    <button class="dropbtn">Hello <?php echo $_SESSION['id']; ?></button>
-                    <div class="dropdown-content">
-                        <a href="logout.php" class="logout">Logout</a>
-                        <?php if ($isAdmin) : ?>
-                            <a href="./manage_events.php">Manage Events</a>
-                        <?php endif; ?>
-                    </div>
-                </div>
-            
-        <?php else : ?>
-            <div class="menu1 text-right">
-                <ul>
-                    <li><a href="login.php" <?php if($current_page == 'login.php') echo 'class="active"'; ?>>Login</a></li>
-                    <li><a href="signup.php" <?php if($current_page == 'signup.php') echo 'class="active"'; ?>>Signup</a></li>
+                <li><a href="login.php" <?php if($current_page == 'login.php') echo 'class="active"'; ?>>Login</a></li>
+                <li><a href="signup.php" <?php if($current_page == 'signup.php') echo 'class="active"'; ?>>Signup</a></li>
                 </ul>
-            
-        <?php endif; ?>
+    
         </div>
+</div>
     
 
             
