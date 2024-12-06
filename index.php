@@ -65,7 +65,7 @@ of images instead of video--->
     <div class="box-container">
             <div class="box-head">
                 <div class="box">
-                    <img class="index-img" src="./images/event1.webp" alt="image">
+                    <img class="index-img" src="./images/event1.jpeg" alt="image">
                     <br>
                     <hr>
                     <p class="event-name"><b>ZIA HASSANKHAIL</b><br></p>
@@ -90,7 +90,7 @@ of images instead of video--->
 
     <div class="box-head">
                 <div class="box">
-                <img class="index-img" src="./images/event2.webp" alt="image">
+                <img class="index-img" src="./images/event2.jpeg" alt="image">
                 <br>
                 <hr>
                     <p class="event-name"><b>ZIA HASSANKHAIL</b><br></p>
