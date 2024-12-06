@@ -187,7 +187,7 @@ of images instead of video--->
     
     <div class="box-head">
                 <div class="box">
-                <img src="./images/event5.webp" alt="image">
+                <img src="./images/event5.jpg" alt="image">
                 <br>
                 <hr>
                     <p class="event-name"><b>ZIA HASSANKHAIL</b><br></p>
@@ -237,6 +237,8 @@ of images instead of video--->
     </section>
     <br>
     <br>
+    <br>
+    <br>
 
     <a class="click-more" href="events.php"><button class="more">Click for more news</button></a>
 
@@ -252,5 +254,8 @@ of images instead of video--->
 <br>
 
 <hr>
+
+
+<?php include 'footer.php'; ?>
 
 
